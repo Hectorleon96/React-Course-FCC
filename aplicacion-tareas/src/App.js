@@ -1,0 +1,15 @@
+import './App.css';
+import ListaTareas from './components/ListaDeTareas-component/ListaDeTareas';
+
+function App() {
+  return (
+    <div className="App">
+      <div className='tareas-lista-principal'>
+        <h1>Mis tareas</h1>
+        <ListaTareas />
+      </div>
+    </div>
+  );
+}
+
+export default App;

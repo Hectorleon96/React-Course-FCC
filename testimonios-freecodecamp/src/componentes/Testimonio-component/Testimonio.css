@@ -1,0 +1,30 @@
+.contenedor-testimonio {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.imagen-testimonio {
+  width: 30%;
+}
+
+.contenedor-texto-testimonio {
+  width: 70%;
+  text-align: left;
+}
+
+.contenedor-texto-testimonio p {
+  margin: 0;
+}
+
+.nombre-testimonio,
+.cargo-testimonio {
+  font-weight: bold;
+}
+
+.texto-testimonio {
+  text-align: justify;
+}

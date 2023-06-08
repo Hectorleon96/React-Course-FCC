@@ -1,0 +1,47 @@
+.App {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 50%;
+  text-align: center;
+}
+
+.freecodecamp-logo {
+  width: 50%;
+}
+
+.contenedor-principal {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.contenedor-principal button {
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contenedor-principal button:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.boton-click {
+  background-color: #ff6347;
+}
+
+.boton-reiniciar {
+  background-color: #f0f8ff;
+}
